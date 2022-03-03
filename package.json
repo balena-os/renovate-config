@@ -1,0 +1,23 @@
+{
+  "name": "renovate-config",
+  "version": "0.0.1",
+  "description": "Device repositories shared Renovate configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "renovate-config-validator ./renovate.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balena-os/renovate-config.git"
+  },
+  "keywords": [
+    "balenaos",
+    "renovate"
+  ],
+  "author": "Alex Gonzalez",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/balena-os/renovate-config/issues"
+  },
+  "homepage": "https://github.com/balena-os/renovate-config#readme"
+}
