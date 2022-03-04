@@ -1,15 +1,19 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "local>renovatebot/.github",
+    "config:base",
+    ":disableDependencyDashboard",
     ":semanticCommitsDisabled"
   ],
-  "semanticCommitScope": "deps",
-  "stabilityDays": 0,
   "commitMessagePrefix": "Update",
   "commitMessageAction": "",
   "commitMessageTopic": "{{depName}}",
   "commitMessageExtra": "from {{currentVersion}} to {{newVersion}}",
+  "commitBody": "Change-type: patch",
+  "prHourlyLimit": 0,
+  "labels": [
+    "dependencies"
+  ],
   "git-submodules": {
     "enabled": true
   },
@@ -21,9 +25,13 @@
     },
     {
       "matchManagers": ["git-submodules"],
+      "matchUpdateTypes": ["major"],
+      "automerge": false
+    },
+    {
+      "matchManagers": ["git-submodules"],
       "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true,
-      "stabilityDays": 0
+      "automerge": true
     }
   ]
 }
