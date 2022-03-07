@@ -1,1 +1,26 @@
-[]
+- commits:
+    - subject: Update renovate configuration
+      hash: c9cf7aa718857a032a5a4e310db48e6a8a4c9362
+      body: |
+        Base in config base preset and disable dependency board as it creates
+        issues instead of PRs.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+    - subject: Add renovate.json file
+      hash: e326b61b582bcc651dccd382ff71e984657d8f12
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 0.0.2
+  title: "'Update renovate configuration'"
+  date: 2022-03-07T17:48:57.846Z
