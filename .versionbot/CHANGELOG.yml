@@ -1,4 +1,22 @@
 - commits:
+    - subject: Adjust renovate configuration for digest updates
+      hash: 948a717748dfb94dda69b4e37e97154acb26b5ba
+      body: |
+        The renovate git-submodule plugin does not support tag updates yet.
+
+        Remove the matchUpdateTypes that referred to tag versioning, and
+        add a `Update <dependency>` body for versionbot nested changelogs.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 0.0.3
+  title: "'Adjust renovate configuration for digest updates'"
+  date: 2022-03-08T12:46:59.871Z
+- commits:
     - subject: Update renovate configuration
       hash: c9cf7aa718857a032a5a4e310db48e6a8a4c9362
       body: |
