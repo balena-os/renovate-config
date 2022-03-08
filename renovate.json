@@ -8,8 +8,7 @@
   "commitMessagePrefix": "Update",
   "commitMessageAction": "",
   "commitMessageTopic": "{{depName}}",
-  "commitMessageExtra": "from {{currentVersion}} to {{newVersion}}",
-  "commitBody": "Change-type: patch",
+  "commitBody": "Update {{depName}}\nChange-type: patch",
   "prHourlyLimit": 0,
   "labels": [
     "dependencies"
@@ -25,12 +24,6 @@
     },
     {
       "matchManagers": ["git-submodules"],
-      "matchUpdateTypes": ["major"],
-      "automerge": false
-    },
-    {
-      "matchManagers": ["git-submodules"],
-      "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
     }
   ]
