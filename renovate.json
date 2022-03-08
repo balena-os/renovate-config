@@ -8,7 +8,7 @@
   "commitMessagePrefix": "Update",
   "commitMessageAction": "",
   "commitMessageTopic": "{{depName}}",
-  "commitBody": "Update {{depName}}\nChange-type: patch",
+  "commitBody": "Update {{depName}}\nChangelog-entry: Update {{depName}} to {{newDigest}}",
   "prHourlyLimit": 0,
   "labels": [
     "dependencies"
