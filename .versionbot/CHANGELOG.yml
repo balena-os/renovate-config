@@ -1,4 +1,21 @@
 - commits:
+    - subject: "renovate: Replace Change-type with Changelog-entry"
+      hash: 77ea05a1aad615628a982f6257718338fc1a7f4a
+      body: |
+        This configuration is to be used in device repositories, and their
+        versionist configuration requires a `Changelog-entry` to trigger instead
+        of a `Change-type`.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 0.0.4
+  title: "'renovate: Replace Change-type with Changelog-entry'"
+  date: 2022-03-08T20:57:56.541Z
+- commits:
     - subject: Adjust renovate configuration for digest updates
       hash: 948a717748dfb94dda69b4e37e97154acb26b5ba
       body: |
