@@ -1,4 +1,22 @@
 - commits:
+    - subject: "renovate: Disable pruning of stale branches"
+      hash: 6ec36f80753bb28d45e8d23eef2652ece5024808
+      body: |
+        This is needed so that renovate does not remove the versionbot build
+        branch whics is created on the `store-github` task and is required for
+        tagging on merge to master. The build branch is created in the
+        `renovate` namespace so the renovate bot considers it a stale branch.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 0.0.5
+  title: "'renovate: Disable pruning of stale branches'"
+  date: 2022-03-24T10:26:08.286Z
+- commits:
     - subject: "renovate: Replace Change-type with Changelog-entry"
       hash: 77ea05a1aad615628a982f6257718338fc1a7f4a
       body: |
