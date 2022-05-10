@@ -2,6 +2,7 @@
   "name": "renovate-config",
   "version": "0.0.5",
   "description": "Device repositories shared Renovate configuration",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "renovate-config-validator ./renovate.json"
