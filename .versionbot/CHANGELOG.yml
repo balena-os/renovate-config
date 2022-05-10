@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add exception for leviathan submodule
+      hash: f9421be46bb6760104a0f8b1b5fe773a16dca680
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.0.8
+  title: "'Add exception for leviathan submodule'"
+  date: 2022-05-10T19:26:56.651Z
+- commits:
     - subject: Create .gitignore
       hash: 00b575e2628e55d1a7ff5d75c13b0b8c5d03b398
       body: ""
