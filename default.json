@@ -20,7 +20,7 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
-      "excludePackagePatterns": [".*meta-balena",".*balena-yocto-scripts"],
+      "excludePackagePatterns": [".*meta-balena",".*balena-yocto-scripts",".*leviathan"],
       "enabled": false
     },
     {
