@@ -1,4 +1,18 @@
 - commits:
+    - subject: Create .gitignore
+      hash: 00b575e2628e55d1a7ff5d75c13b0b8c5d03b398
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.0.7
+  title: "'Create .gitignore'"
+  date: 2022-05-10T19:19:44.892Z
+- commits:
     - subject: Install renovate-config-validator via npm renovate pkg
       hash: 37535d0c3541886f4767f781cc389c64940d72a3
       body: ""
