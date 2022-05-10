@@ -11,16 +11,18 @@
   "commitBody": "Update {{depName}}\nChangelog-entry: Update {{depName}} to {{newDigest}}",
   "prHourlyLimit": 0,
   "pruneStaleBranches": false,
-  "labels": [
-    "dependencies"
-  ],
+  "labels": ["dependencies"],
   "git-submodules": {
     "enabled": true
   },
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
-      "excludePackagePatterns": [".*meta-balena",".*balena-yocto-scripts"],
+      "excludePackagePatterns": [
+        ".*meta-balena",
+        ".*balena-yocto-scripts",
+        ".*leviathan"
+      ],
       "enabled": false
     },
     {
