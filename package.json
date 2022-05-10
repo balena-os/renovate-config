@@ -23,5 +23,8 @@
   "homepage": "https://github.com/balena-os/renovate-config#readme",
   "versionist": {
     "publishedAt": "2022-03-24T10:26:08.337Z"
+  },
+  "dependencies": {
+    "renovate": "^32.48.0"
   }
 }
