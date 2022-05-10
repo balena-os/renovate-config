@@ -1,4 +1,32 @@
 - commits:
+    - subject: Install renovate-config-validator via npm renovate pkg
+      hash: 37535d0c3541886f4767f781cc389c64940d72a3
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+    - subject: Rename renovate.json to default.json
+      hash: 4b620bdb87f676f372e90e405d44491eec49e80a
+      body: |
+        Renovate docs suggest renovate.json should not be used for presets.
+        Instead it is recommended to use default.json.
+
+        https://docs.renovatebot.com/config-presets/
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.0.6
+  title: "'Rename renovate.json to default.json'"
+  date: 2022-05-10T19:00:37.566Z
+- commits:
     - subject: "renovate: Disable pruning of stale branches"
       hash: 6ec36f80753bb28d45e8d23eef2652ece5024808
       body: |
