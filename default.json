@@ -21,7 +21,8 @@
       "excludePackagePatterns": [
         ".*meta-balena",
         ".*balena-yocto-scripts",
-        ".*leviathan"
+        ".*leviathan",
+        ".*contracts"
       ],
       "enabled": false
     },
