@@ -1,4 +1,14 @@
 - commits:
+    - subject: "patch: Enable renovate for balena-supervisor"
+      hash: 4ba50b63671ed3335693edc351006254902ed08b
+      body: ""
+      footer: {}
+      author: Kyle Harding
+      nested: []
+  version: 0.0.10
+  title: "'patch: Enable renovate for balena-supervisor'"
+  date: 2022-06-17T15:37:40.131Z
+- commits:
     - subject: Add exception for contracts submodule
       hash: 676d83a338120f2a4c652b9f3726a24b4eabad7d
       body: ""
