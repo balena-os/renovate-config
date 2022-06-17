@@ -22,12 +22,17 @@
         ".*meta-balena",
         ".*balena-yocto-scripts",
         ".*leviathan",
-        ".*contracts"
+        ".*contracts",
+        ".*balena-supervisor"
       ],
       "enabled": false
     },
     {
       "matchManagers": ["git-submodules"],
+      "automerge": true
+    },
+    {
+      "matchManagers": ["regex"],
       "automerge": true
     }
   ]
