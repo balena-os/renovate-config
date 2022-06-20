@@ -1,4 +1,20 @@
 - commits:
+    - subject: Configure renovate to process forks
+      hash: d791161359a57893bdcfb4c7649356c6aebd0409
+      body: |
+        When renovate is added for all repositories in an organization, this
+        setting defaults to false to forked repositories are not processed.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 0.0.11
+  title: "'Configure renovate to process forks'"
+  date: 2022-06-20T15:30:43.694Z
+- commits:
     - subject: "patch: Enable renovate for balena-supervisor"
       hash: 4ba50b63671ed3335693edc351006254902ed08b
       body: ""
