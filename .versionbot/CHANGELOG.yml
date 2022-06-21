@@ -1,4 +1,23 @@
 - commits:
+    - subject: Revert "Configure renovate to process forks"
+      hash: 60c79dc805e64166cc20855168d68807c42603d2
+      body: |
+        Renovate maintainers confirmed this setting does not work when in an
+        extends. It must also be contained in a `renovate.json` file in the
+        repository root, not for example in the `.github` folder.
+
+        This reverts commit d791161359a57893bdcfb4c7649356c6aebd0409.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 0.0.12
+  title: "'Revert \"Configure renovate to process forks\"'"
+  date: 2022-06-21T20:34:21.266Z
+- commits:
     - subject: Configure renovate to process forks
       hash: d791161359a57893bdcfb4c7649356c6aebd0409
       body: |
