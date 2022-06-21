@@ -35,6 +35,5 @@
       "matchManagers": ["regex"],
       "automerge": true
     }
-  ],
-  "includeForks": true
+  ]
 }
