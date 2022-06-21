@@ -5,7 +5,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "renovate-config-validator ./renovate.json"
+    "test": "renovate-config-validator default.json"
   },
   "repository": {
     "type": "git",
