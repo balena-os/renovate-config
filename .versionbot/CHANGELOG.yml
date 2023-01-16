@@ -1,4 +1,16 @@
 - commits:
+    - subject: GitHub actions renovate+Flowzone
+      hash: 29e59607cefbdaef47c232b97e7f63e83108aab2
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Balena CI
+      nested: []
+  version: 0.1.0
+  title: ""
+  date: 2023-01-16T20:26:17.132Z
+- commits:
     - subject: Revert "Configure renovate to process forks"
       hash: 60c79dc805e64166cc20855168d68807c42603d2
       body: |
