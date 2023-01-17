@@ -1,4 +1,17 @@
 - commits:
+    - subject: Enable automerge+policy-bot
+      hash: b49dbea1efe08e4898fa2773470ac92be7585927
+      body: |
+        Simplifies renovate config in tandem with product-os/policies#13
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Anton Belodedenko
+      nested: []
+  version: 0.2.0
+  title: ""
+  date: 2023-01-17T16:18:13.581Z
+- commits:
     - subject: GitHub actions renovate+Flowzone
       hash: 29e59607cefbdaef47c232b97e7f63e83108aab2
       body: ""
