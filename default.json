@@ -19,7 +19,6 @@
     "renovate",
     "dependencies"
   ],
-  "platformAutomerge": true,
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
@@ -34,11 +33,13 @@
     },
     {
       "matchManagers": ["git-submodules"],
-      "automerge": true
+      "automerge": true,
+      "platformAutomerge": true
     },
     {
       "matchManagers": ["regex"],
-      "automerge": true
+      "automerge": true,
+      "platformAutomerge": true
     }
   ]
 }
