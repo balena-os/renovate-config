@@ -15,6 +15,11 @@
   "git-submodules": {
     "enabled": true
   },
+  "labels": [
+    "renovate",
+    "dependencies"
+  ],
+  "platformAutomerge": true,
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
