@@ -5,6 +5,8 @@
     ":disableDependencyDashboard",
     ":semanticCommitsDisabled"
   ],
+  "autodiscover": true,
+  "autodiscoverFilter": ["balena-os/*"],
   "commitMessagePrefix": "Update",
   "commitMessageAction": "",
   "commitMessageTopic": "{{depName}}",
