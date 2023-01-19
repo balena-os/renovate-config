@@ -1,4 +1,16 @@
 - commits:
+    - subject: Don't auto-merge unless specified
+      hash: 24529e36a719591e9893ee7dc2d0a47682b0f8fa
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 0.2.1
+  title: ""
+  date: 2023-01-19T17:17:45.058Z
+- commits:
     - subject: Enable automerge+policy-bot
       hash: b49dbea1efe08e4898fa2773470ac92be7585927
       body: |
