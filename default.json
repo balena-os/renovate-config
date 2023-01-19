@@ -19,7 +19,9 @@
   },
   "labels": [
     "renovate",
-    "dependencies"
+    "dependencies",
+    "{{updateType}}",
+    "{{depType}}"
   ],
   "packageRules": [
     {
