@@ -1,4 +1,16 @@
 - commits:
+    - subject: Disable onboarding PRs
+      hash: 37bfc06bad1ab68c55baec4bf297e501ef5bcdfd
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 0.2.3
+  title: ""
+  date: 2023-01-20T00:18:26.011Z
+- commits:
     - subject: Additional PR labels
       hash: 66c62fa5821b529c35d335fd7ef930dce9b485b0
       body: ""
