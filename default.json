@@ -24,6 +24,10 @@
     "{{updateType}}",
     "{{depType}}"
   ],
+  "allowPostUpgradeCommandTemplating": true,
+  "allowedPostUpgradeCommands": [
+    "^sed"
+  ],
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
@@ -31,8 +35,7 @@
         ".*meta-balena",
         ".*balena-yocto-scripts",
         ".*leviathan",
-        ".*contracts",
-        ".*balena-supervisor"
+        ".*contracts"
       ],
       "enabled": false
     },
@@ -44,7 +47,8 @@
     {
       "matchManagers": ["regex"],
       "automerge": true,
-      "platformAutomerge": true
+      "platformAutomerge": true,
+      "enabled": true
     }
   ]
 }
