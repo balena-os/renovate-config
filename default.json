@@ -41,13 +41,9 @@
     },
     {
       "matchManagers": ["git-submodules"],
-      "automerge": true,
-      "platformAutomerge": true
     },
     {
       "matchManagers": ["regex"],
-      "automerge": true,
-      "platformAutomerge": true,
       "enabled": true
     }
   ]
