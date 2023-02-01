@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add support for post-upgrade commands
+      hash: 6b0a696d8dca8b715ec8576319b40fb79ca02220
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.2.4
+  title: ""
+  date: 2023-02-01T14:43:30.391Z
+- commits:
     - subject: Disable onboarding PRs
       hash: 37bfc06bad1ab68c55baec4bf297e501ef5bcdfd
       body: ""
