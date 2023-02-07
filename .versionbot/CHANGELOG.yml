@@ -1,4 +1,16 @@
 - commits:
+    - subject: Correct handlebars logic
+      hash: 56fdc340c6e7261b0fcc181a8b1fc29fa66884c1
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 0.2.7
+  title: ""
+  date: 2023-02-07T18:07:12.629Z
+- commits:
     - subject: depType conditional on newMajor version
       hash: 411665fcfb9930b7c6a59d42e60d7a776618166b
       body: ""
