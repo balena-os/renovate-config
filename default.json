@@ -22,7 +22,7 @@
     "renovate",
     "dependencies",
     "{{updateType}}",
-    "{{#if (and (not(isPatch)) (containsString prettyNewMajor 'v0'))}}major{{else}}{{depType}}{{/if}}"
+    "{{#if (and (containsString updateType 'patch') (containsString prettyNewMajor 'v0'))}}major{{else}}{{depType}}{{/if}}"
   ],
   "allowPostUpgradeCommandTemplating": true,
   "allowedPostUpgradeCommands": [
