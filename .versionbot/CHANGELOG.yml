@@ -1,4 +1,18 @@
 - commits:
+    - subject: "Try automergeType: pr-comment to delay"
+      hash: 94794d3af43d4482b9d84e7e08901ef76ab5eba4
+      body: >
+        * attempt to allow time for GH to register required checks, avoiding
+        untested PRs being prematurely approved/merged
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 0.2.8
+  title: ""
+  date: 2023-02-23T20:16:18.929Z
+- commits:
     - subject: Correct handlebars logic
       hash: 56fdc340c6e7261b0fcc181a8b1fc29fa66884c1
       body: ""
