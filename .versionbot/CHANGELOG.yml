@@ -1,4 +1,16 @@
 - commits:
+    - subject: Revert automergeType
+      hash: 142b356244b7d6a3f1893a449f193e41c116746e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 0.2.9
+  title: ""
+  date: 2023-02-27T18:22:08.018Z
+- commits:
     - subject: "Try automergeType: pr-comment to delay"
       hash: 94794d3af43d4482b9d84e7e08901ef76ab5eba4
       body: >
