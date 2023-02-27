@@ -9,8 +9,6 @@
   "autodiscover": true,
   "autodiscoverFilter": ["balena-os/*"],
   "requireConfig": "optional",
-  "automergeType": "pr-comment",
-  "automergeComment": "LGTM",
   "commitMessagePrefix": "Update",
   "commitMessageAction": "",
   "commitMessageTopic": "{{depName}}",
