@@ -41,11 +41,11 @@
     },
     {
       "matchManagers": ["git-submodules"],
-      "automerge": true
+      "automerge": false
     },
     {
       "matchManagers": ["regex"],
-      "automerge": true,
+      "automerge": false,
       "enabled": true
     }
   ]
