@@ -1,4 +1,22 @@
 - commits:
+    - subject: "patch: Disable automerge"
+      hash: b4d1b0528c850b8711ec80781fc5fc549a4bedfb
+      body: ""
+      footer: {}
+      author: Kyle Harding
+      nested: []
+    - subject: Fix invalid registry credentials
+      hash: 1d55925538a67fe01547fc484c83de77b9172a36
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 0.2.10
+  title: ""
+  date: 2023-03-28T15:59:02.569Z
+- commits:
     - subject: Revert automergeType
       hash: 142b356244b7d6a3f1893a449f193e41c116746e
       body: ""
