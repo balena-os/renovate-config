@@ -5,6 +5,12 @@
     ":disableDependencyDashboard",
     ":semanticCommitsDisabled"
   ],
+  "username": "balena-renovate[bot]",
+  "gitAuthor": "Self-hosted Renovate Bot <133977723+balena-renovate[bot]@users.noreply.github.com>",
+  "gitIgnoredAuthors": [
+    "34882892+balena-ci@users.noreply.github.com",
+    "renovate@whitesourcesoftware.com"
+  ],
   "onboarding": false,
   "autodiscover": true,
   "autodiscoverFilter": ["balena-os/*"],
