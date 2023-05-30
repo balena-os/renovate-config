@@ -1,4 +1,28 @@
 - commits:
+    - subject: Enable github actions manager
+      hash: e54d621c00cb76f47be586cbd5fada27d91443c0
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+    - subject: Authenticate with installation app tokens
+      hash: b5c40d15e1032f165e4c07da5305d1cc592f2780
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.2.11
+  title: ""
+  date: 2023-05-30T16:24:14.568Z
+- commits:
     - subject: "patch: Disable automerge"
       hash: b4d1b0528c850b8711ec80781fc5fc549a4bedfb
       body: ""
