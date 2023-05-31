@@ -1,4 +1,19 @@
 - commits:
+    - subject: Enable managing of github-actions on this repo
+      hash: 2ab5a0ee4699bf647c5906fa18fb7438776ed70d
+      body: |
+        Extend the balena-os renovate config for this repo only.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.2.13
+  title: ""
+  date: 2023-05-31T15:29:38.786Z
+- commits:
     - subject: Revert previous change that enabled all git-submodules
       hash: 3625494034a87e42862c3033c1851e12b181645d
       body: |
