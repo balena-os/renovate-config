@@ -1,4 +1,20 @@
 - commits:
+    - subject: Revert previous change that enabled all git-submodules
+      hash: 3625494034a87e42862c3033c1851e12b181645d
+      body: |
+        We only want submodules enabled for the packages in the
+        patterns list.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.2.12
+  title: ""
+  date: 2023-05-31T13:44:01.150Z
+- commits:
     - subject: Enable github actions manager
       hash: e54d621c00cb76f47be586cbd5fada27d91443c0
       body: ""
