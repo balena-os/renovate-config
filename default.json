@@ -47,10 +47,6 @@
       "enabled": false
     },
     {
-      "matchManagers": ["git-submodules"],
-      "enabled": true
-    },
-    {
       "matchManagers": ["regex"],
       "enabled": true
     },
