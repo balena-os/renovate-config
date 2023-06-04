@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update renovatebot/github-action action to v38.1.2
+      hash: 99b2ad2e79eaa8de624aacf1db7340d90d162bc1
+      body: |
+        Update renovatebot/github-action from 38.1.1 to 38.1.2
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 0.2.15
+  title: ""
+  date: 2023-06-04T22:27:58.125Z
+- commits:
     - subject: Update renovatebot/github-action action to v38.1.1
       hash: 168eb4caf9a6c4208e6eb547ab0fbaa17a7e7595
       body: |
