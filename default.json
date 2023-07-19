@@ -18,21 +18,18 @@
   "commitMessagePrefix": "Update",
   "commitMessageAction": "",
   "commitMessageTopic": "{{depName}}",
-  "commitBody": "Update {{depName}}\nChangelog-entry: Update {{depName}} to {{newDigest}}",
   "prHourlyLimit": 0,
   "pruneStaleBranches": false,
   "git-submodules": {
     "enabled": true
   },
-  "labels": [
-    "renovate",
-    "dependencies",
-    "{{updateType}}",
-    "{{#if (and (containsString updateType 'patch') (containsString prettyNewMajor 'v0'))}}major{{else}}{{depType}}{{/if}}"
-  ],
+  "labels": ["renovate", "{{depType}}", "{{updateType}}", "no-review"],
   "allowPostUpgradeCommandTemplating": true,
   "allowedPostUpgradeCommands": ["^sed"],
   "automerge": false,
+  "digest": {
+    "commitBody": "Update {{depName}}\nChangelog-entry: Update {{depName}} to {{newDigest}}"
+  },
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
