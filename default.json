@@ -24,12 +24,7 @@
   "git-submodules": {
     "enabled": true
   },
-  "labels": [
-    "renovate",
-    "dependencies",
-    "{{updateType}}",
-    "{{#if (and (containsString updateType 'patch') (containsString prettyNewMajor 'v0'))}}major{{else}}{{depType}}{{/if}}"
-  ],
+  "labels": ["renovate", "{{depType}}", "{{updateType}}", "no-review"],
   "allowPostUpgradeCommandTemplating": true,
   "allowedPostUpgradeCommands": ["^sed"],
   "automerge": false,
