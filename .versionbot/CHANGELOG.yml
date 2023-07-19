@@ -1,4 +1,18 @@
 - commits:
+    - subject: Use no-review label to bypass policy bot requirements
+      hash: 435ffb95db014e05c66ae5af5b293893754d05f4
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.2.25
+  title: ""
+  date: 2023-07-19T14:28:26.695Z
+- commits:
     - subject: Update renovatebot/github-action action to v38.1.13
       hash: 948d5378cfcd8d39ecac5303f041dba6aeda96c2
       body: |
