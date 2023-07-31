@@ -1,4 +1,17 @@
 - commits:
+    - subject: Revert "Only apply digest commit body to digest update types"
+      hash: c6946c443bd1f3d43a72c0edb6dcc4dcfca4f897
+      body: |
+        This reverts commit cd14afd39da1390f928f1ee063bc49f27685b741.
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Kyle Harding
+      nested: []
+  version: 0.2.26
+  title: ""
+  date: 2023-07-31T18:05:41.628Z
+- commits:
     - subject: Use no-review label to bypass policy bot requirements
       hash: 435ffb95db014e05c66ae5af5b293893754d05f4
       body: ""
