@@ -1,4 +1,18 @@
 - commits:
+    - subject: Use newVersion when the update type is not digest
+      hash: 9a1bafabbda8ec52732c868bf3bbc4baeceb6d1b
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.2.27
+  title: ""
+  date: 2023-07-31T20:08:59.046Z
+- commits:
     - subject: Revert "Only apply digest commit body to digest update types"
       hash: c6946c443bd1f3d43a72c0edb6dcc4dcfca4f897
       body: |
