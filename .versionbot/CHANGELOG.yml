@@ -1,4 +1,20 @@
 - commits:
+    - subject: Use renovate automerge instead of custom labels Renovate labels are not
+        updated when PRs are rebased or change updateTypes, so they cannot be
+        used as a reliable source of truth.
+      hash: d60268337bafa54994fd61198098174d07cdc37e
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.3.0
+  title: ""
+  date: 2023-08-23T15:15:49.351Z
+- commits:
     - subject: Update renovatebot/github-action action to v39
       hash: c8f124ed6bbac644b1f4d9bcc20c1140c7da3f90
       body: |
