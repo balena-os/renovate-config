@@ -24,10 +24,10 @@
   "git-submodules": {
     "enabled": true
   },
-  "labels": ["renovate", "{{depType}}", "{{updateType}}", "no-review"],
+  "labels": ["renovate", "{{depType}}", "{{updateType}}"],
   "allowPostUpgradeCommandTemplating": true,
   "allowedPostUpgradeCommands": ["^sed"],
-  "automerge": false,
+  "automerge": true,
   "digest": {
     "commitBody": "Update {{depName}}\nChangelog-entry: Update {{depName}} to {{newDigest}}"
   },
