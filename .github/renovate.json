@@ -1,3 +1,4 @@
 {
-  "extends": ["github>balena-io/renovate-config"]
+  "extends": ["github>balena-io/renovate-config"],
+  "commitBody": "Update {{depName}}\n\nChange-type: patch"
 }
