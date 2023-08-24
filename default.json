@@ -38,7 +38,8 @@
         ".*meta-balena",
         ".*balena-yocto-scripts",
         ".*leviathan",
-        ".*contracts"
+        ".*contracts",
+        ".*/poky"
       ],
       "enabled": false
     },
