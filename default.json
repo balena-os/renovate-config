@@ -24,7 +24,7 @@
   "git-submodules": {
     "enabled": true
   },
-  "labels": ["renovate", "{{depType}}", "{{updateType}}"],
+  "labels": ["renovate"],
   "allowPostUpgradeCommandTemplating": true,
   "allowedPostUpgradeCommands": ["^sed"],
   "automerge": true,
