@@ -28,6 +28,7 @@
   "allowPostUpgradeCommandTemplating": true,
   "allowedPostUpgradeCommands": ["^sed"],
   "automerge": true,
+  "automergeStrategy": "merge-commit",
   "digest": {
     "commitBody": "Update {{depName}}\nChangelog-entry: Update {{depName}} to {{newDigest}}"
   },
