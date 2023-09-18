@@ -50,6 +50,20 @@
     {
       "matchManagers": ["github-actions"],
       "enabled": true
+    },
+    {
+      "matchManagers": ["git-submodules"],
+      "matchPackagePatterns": ["/poky(.git)?$"],
+      "matchCurrentValue": "!/^master/",
+      "enabled": true,
+      "automerge": false
+    },
+    {
+      "matchManagers": ["git-submodules"],
+      "matchPackagePatterns": ["/meta-openembedded(.git)?$"],
+      "matchCurrentValue": "!/^master/",
+      "enabled": true,
+      "automerge": false
     }
   ]
 }
