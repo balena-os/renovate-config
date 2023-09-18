@@ -1,4 +1,20 @@
 - commits:
+    - subject: Bump poky and meta-oe submodules if the branch is non-master
+      hash: 93834c453cad1ef2d43d214981ef2ff6d1512998
+      body: |
+        This ensures that the branch property has been set in .gitmodules
+        in the repository before renovate will try to bump the commit.
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.4.0
+  title: ""
+  date: 2023-09-18T17:01:48.656Z
+- commits:
     - subject: Update actions/checkout action to v4
       hash: 76bd8808c63434356df45a35ada868c1fd2a77cd
       body: |
