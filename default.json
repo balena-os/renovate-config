@@ -45,25 +45,27 @@
     },
     {
       "matchManagers": ["regex"],
-      "enabled": true
+      "enabled": true,
+      "automerge": true
     },
     {
       "matchManagers": ["github-actions"],
-      "enabled": true
+      "enabled": true,
+      "automerge": true
     },
     {
       "matchManagers": ["git-submodules"],
       "matchPackagePatterns": ["/poky(.git)?$"],
       "matchCurrentValue": "!/^master/",
       "enabled": true,
-      "automerge": false
+      "automerge": true
     },
     {
       "matchManagers": ["git-submodules"],
       "matchPackagePatterns": ["/meta-openembedded(.git)?$"],
       "matchCurrentValue": "!/^master/",
       "enabled": true,
-      "automerge": false
+      "automerge": true
     }
   ]
 }
