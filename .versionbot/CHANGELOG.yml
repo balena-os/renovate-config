@@ -1,4 +1,18 @@
 - commits:
+    - subject: Enable automerge for poky and meta-oe submodules
+      hash: 4c1ae036a69536222f90618fa8db0bb0e2cd74bf
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.4.1
+  title: ""
+  date: 2023-09-25T14:06:01.359Z
+- commits:
     - subject: Bump poky and meta-oe submodules if the branch is non-master
       hash: 93834c453cad1ef2d43d214981ef2ff6d1512998
       body: |
