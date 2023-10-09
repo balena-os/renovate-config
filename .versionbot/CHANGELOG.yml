@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update actions/checkout digest to 8ade135
+      hash: a2138a569b60b7b092139fd955aeb2a4eceb3355
+      body: |
+        Update actions/checkout
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 0.4.3
+  title: ""
+  date: 2023-10-09T16:46:37.321Z
+- commits:
     - subject: "renovate: Include helper to pin GHA digests"
       hash: 09383a332d7d629ac6badaf75af562ef1a76bce0
       body: |
