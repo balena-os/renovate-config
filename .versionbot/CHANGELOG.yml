@@ -1,4 +1,16 @@
 - commits:
+    - subject: Pin renovate image version to 37.27.0
+      hash: 1b65bd958ca4128cf4f9fed1e8208b5bc0011802
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Kyle Harding
+      nested: []
+  version: 0.4.4
+  title: ""
+  date: 2023-10-18T15:09:14.181Z
+- commits:
     - subject: Update actions/checkout digest to 8ade135
       hash: a2138a569b60b7b092139fd955aeb2a4eceb3355
       body: |
