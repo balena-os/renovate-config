@@ -27,7 +27,8 @@
   },
   "labels": ["renovate"],
   "allowPostUpgradeCommandTemplating": true,
-  "allowedPostUpgradeCommands": ["^sed"],
+  "allowedPostUpgradeCommands": ["^sed\\s+"],
+  "trustLevel": "high",
   "automerge": true,
   "automergeStrategy": "merge-commit",
   "digest": {
