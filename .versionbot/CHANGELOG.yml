@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update renovate docker version to v37.74.3
+      hash: 32b74056ef921bb24bc20701941e4f89ad317256
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Kyle Harding
+      nested: []
+  version: 0.4.11
+  title: ""
+  date: 2023-12-01T19:23:34.463Z
+- commits:
     - subject: Update renovatebot/github-action action to v39.1.3
       hash: ebb2b335d9a40cd0e3aae00ebad2a8dc4b46b41e
       body: |
