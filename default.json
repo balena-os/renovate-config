@@ -67,6 +67,10 @@
       "matchCurrentValue": "!/^master/",
       "enabled": true,
       "automerge": true
+    },
+    {
+      "matchRepositories": ["balena-io/balena-ui"],
+      "commitBody": "Update {{depName}}\n\nChangelog-entry: Update {{depName}}\nChange-type: patch"
     }
   ]
 }
