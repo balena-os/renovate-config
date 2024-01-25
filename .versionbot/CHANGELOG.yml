@@ -1,4 +1,25 @@
 - commits:
+    - subject: Remove unsupported Flowzone options
+      hash: ef7e2f182fda759aef5e3cdac5c3cfa2cf30718d
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Kyle Harding
+      nested: []
+    - subject: Update renovate Docker tag to v37.116.0
+      hash: 16b9ba1e2aeebd934c8174642072810d2a34643c
+      body: |
+        Update renovate from 37.115.0 to 37.116.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 0.4.26
+  title: ""
+  date: 2024-01-25T16:49:15.395Z
+- commits:
     - subject: Update renovatebot/github-action action to v39.2.4
       hash: a96898a20c3ec9c8089ae51001dc3becea5879da
       body: |
