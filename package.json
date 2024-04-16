@@ -1,6 +1,6 @@
 {
   "name": "renovate-config",
-  "version": "0.4.350",
+  "version": "0.4.351",
   "description": "Device repositories shared Renovate configuration",
   "private": true,
   "main": "index.js",
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/balena-os/renovate-config#readme",
   "versionist": {
-    "publishedAt": "2024-04-16T09:01:18.803Z"
+    "publishedAt": "2024-04-16T09:57:35.814Z"
   },
   "dependencies": {
     "renovate": "^32.48.0"
