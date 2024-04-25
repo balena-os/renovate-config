@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update actions/checkout digest to 0ad4b8f
+      hash: 9acc9dda24f99694c0010d3d5f2c6a5b0631cd2b
+      body: |
+        Update actions/checkout
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 0.4.397
+  title: ""
+  date: 2024-04-25T15:56:48.694Z
+- commits:
     - subject: Update renovate Docker tag to v37.323.1
       hash: 88bbc6f7a06e7f78d6caa75f2105431b3248fe99
       body: |
