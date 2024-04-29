@@ -21,7 +21,7 @@
   "commitMessageTopic": "{{depName}}",
   "commitBody": "Update {{depName}}\nChangelog-entry: Update {{depName}} to {{newVersion}}",
   "prHourlyLimit": 0,
-  "pruneStaleBranches": false,
+  "pruneStaleBranches": true,
   "git-submodules": {
     "enabled": true
   },
