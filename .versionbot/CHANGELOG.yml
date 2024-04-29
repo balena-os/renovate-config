@@ -1,4 +1,21 @@
 - commits:
+    - subject: Enable pruning of stale and orphan branches
+      hash: 45d945b83add5a091398bc5b9ee72ec2c8e0309e
+      body: >
+        See:
+        https://docs.renovatebot.com/configuration-options/#prunestalebranches
+
+        See:
+        https://balena.zulipchat.com/#narrow/stream/345889-balena-io.2Fos/topic/Renovate.20for.20balena-supervisor
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Kyle Harding
+      nested: []
+  version: 0.4.413
+  title: ""
+  date: 2024-04-29T16:43:25.261Z
+- commits:
     - subject: Update renovate Docker tag to v37.328.1
       hash: eea30dd182f412a6abd5e1b5b92617cb7086c5a3
       body: |
