@@ -1,4 +1,32 @@
 - commits:
+    - subject: Group poky and meta-OE and BSP layers in a single PR
+      hash: d2ea9419cc3f77bdb4bf8014a6a74a5a709c3cd9
+      body: |
+        Ideally BSP layers will get updated at the same time
+        as poky and meta-OE to avoid broken dependencies.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+    - subject: Enable management all non-master branch meta-* submodules
+      hash: 126163a206bf0353b39a85d6e10b997df8e1aaa4
+      body: |
+        If we have a branch name set for an upstream submodule that is not
+        master, we want Renovate to open PRs to bump to latest.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.4.692
+  title: ""
+  date: 2024-07-18T16:16:10.861Z
+- commits:
     - subject: Enable dependency dashboard
       hash: d50e4b73885cd4bfc594dd6098c6b698a89615d9
       body: ""
