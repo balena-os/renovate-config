@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update renovate Docker tag to v37.433.0
+      hash: 7242cbafaf6b86932b1d856c0a8c50b9168cb9de
+      body: |
+        Update renovate from 37.432.0 to 37.433.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 0.4.693
+  title: ""
+  date: 2024-07-18T17:22:23.588Z
+- commits:
     - subject: Group poky and meta-OE and BSP layers in a single PR
       hash: d2ea9419cc3f77bdb4bf8014a6a74a5a709c3cd9
       body: |
