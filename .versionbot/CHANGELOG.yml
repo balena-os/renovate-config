@@ -1,4 +1,15 @@
 - commits:
+    - subject: Enable dependency dashboard
+      hash: d50e4b73885cd4bfc594dd6098c6b698a89615d9
+      body: ""
+      footer:
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 0.4.691
+  title: ""
+  date: 2024-07-18T14:54:17.400Z
+- commits:
     - subject: Update renovate Docker tag to v37.432.0
       hash: ba7ba01aaf5739842ee1e9a0aba812ec61751acd
       body: |
