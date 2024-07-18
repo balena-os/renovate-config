@@ -62,7 +62,7 @@
     },
     {
       "matchManagers": ["git-submodules"],
-      "matchPackagePatterns": ["/meta-openembedded(.git)?$"],
+      "matchPackagePatterns": ["/meta-[a-z0-9]+(.git)?$"],
       "matchCurrentValue": "!/^master/",
       "enabled": true,
       "automerge": true
