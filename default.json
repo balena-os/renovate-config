@@ -55,17 +55,11 @@
     },
     {
       "matchManagers": ["git-submodules"],
-      "matchPackagePatterns": ["/poky(.git)?$"],
+      "matchPackagePatterns": ["/(poky|meta-[a-z0-9]+)(.git)?$"],
       "matchCurrentValue": "!/^master/",
       "enabled": true,
-      "automerge": true
-    },
-    {
-      "matchManagers": ["git-submodules"],
-      "matchPackagePatterns": ["/meta-[a-z0-9]+(.git)?$"],
-      "matchCurrentValue": "!/^master/",
-      "enabled": true,
-      "automerge": true
+      "automerge": true,
+      "groupName": "meta-layers"
     }
   ]
 }
