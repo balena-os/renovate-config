@@ -60,6 +60,11 @@
       "enabled": true,
       "automerge": true,
       "groupName": "meta-layers"
+    },
+    {
+      "matchManagers": ["git-submodules","github-actions"],
+      "matchPackagePatterns": ["{balena-os/,}balena-yocto-scripts"],
+      "groupName": "balena-yocto-scripts"
     }
   ]
 }
