@@ -1,4 +1,20 @@
 - commits:
+    - subject: Combine PRs for the yocto-scripts submodule and GHA workflow
+      hash: 58a2858528c738a1bf5367381d3bb883d2f6478f
+      body: |
+        These both come from the same repository, and should be aligned
+        as much as possible, so group the PRs together.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.4.821
+  title: ""
+  date: 2024-08-28T15:29:33.476Z
+- commits:
     - subject: Update renovate Docker tag to v38.56.3
       hash: d602cdf019cb2a9a92ecf44cab3fb12c41b6d4ad
       body: |
