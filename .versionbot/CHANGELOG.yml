@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update renovate Docker tag to v38.56.4
+      hash: f32e055c19fbc3c942a7075552c5387c97d0a558
+      body: |
+        Update renovate from 38.56.3 to 38.56.4
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 0.4.822
+  title: ""
+  date: 2024-08-28T17:02:17.152Z
+- commits:
     - subject: Combine PRs for the yocto-scripts submodule and GHA workflow
       hash: 58a2858528c738a1bf5367381d3bb883d2f6478f
       body: |
