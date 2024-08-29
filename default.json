@@ -13,7 +13,7 @@
   ],
   "onboarding": false,
   "autodiscover": true,
-  "autodiscoverFilter": ["balena-os/*"],
+  "autodiscoverFilter": ["balena-os/!(balena-tci)"],
   "requireConfig": "optional",
   "commitMessagePrefix": "Update",
   "commitMessageAction": "",
@@ -65,6 +65,10 @@
       "matchManagers": ["git-submodules","github-actions"],
       "matchPackagePatterns": ["{balena-os/,}balena-yocto-scripts"],
       "groupName": "balena-yocto-scripts"
+    },
+    {
+      "matchPackagePatterns": ["/meta-tci(.git)?$/"],
+      "enabled": false
     }
   ]
 }
