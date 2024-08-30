@@ -1,4 +1,20 @@
 - commits:
+    - subject: Temporarily disable management of meta-tci package
+      hash: cbcc7ed8754eaf63e84abfcb50fd76c537cf902b
+      body: |
+        The repo `github.com/tci-development/meta-tci` has been moved
+        or deleted or made private and is causing Renovate to fail.
+      footer:
+        See: https://github.com/balena-os/balena-tci/issues/274
+        see: https://github.com/balena-os/balena-tci/issues/274
+        Change-type: patch
+        change-type: patch
+      author: Kyle Harding
+      nested: []
+  version: 0.4.824
+  title: ""
+  date: 2024-08-30T16:16:23.482Z
+- commits:
     - subject: Update renovate Docker tag to v38.57.0
       hash: 3208da7b16243dde4562e67b44373ae9ef331ee2
       body: |
