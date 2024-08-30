@@ -1,4 +1,18 @@
 - commits:
+    - subject: Fix use of regex in JSON
+      hash: a9969f69b81f620c7129f317b2c2679bc53eea20
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.4.828
+  title: ""
+  date: 2024-08-30T22:52:36.599Z
+- commits:
     - subject: Update renovate Docker tag to v38.58.0
       hash: 25a94a4b1f08b6e5df33f2bb1acbadfbfb9951cf
       body: |
