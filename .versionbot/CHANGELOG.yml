@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update renovate Docker tag to v38.58.0
+      hash: 25a94a4b1f08b6e5df33f2bb1acbadfbfb9951cf
+      body: |
+        Update renovate from 38.57.3 to 38.58.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 0.4.827
+  title: ""
+  date: 2024-08-30T18:51:16.920Z
+- commits:
     - subject: Fix package matching for balena-yocto-scripts group
       hash: 563b4a623b8a716195c78039ff193f9133f98699
       body: ""
