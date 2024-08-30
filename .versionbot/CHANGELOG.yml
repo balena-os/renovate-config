@@ -1,4 +1,16 @@
 - commits:
+    - subject: Fix package matching for balena-yocto-scripts group
+      hash: 563b4a623b8a716195c78039ff193f9133f98699
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Kyle Harding
+      nested: []
+  version: 0.4.826
+  title: ""
+  date: 2024-08-30T17:52:04.142Z
+- commits:
     - subject: Update renovate Docker tag to v38.57.3
       hash: 2afedaef159fdb555cba2145e39f39601f8330b9
       body: |
