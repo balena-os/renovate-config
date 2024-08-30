@@ -55,7 +55,7 @@
     },
     {
       "matchManagers": ["git-submodules"],
-      "matchPackagePatterns": ["/(poky|meta-[a-z0-9]+)(.git)?$"],
+      "matchPackagePatterns": ["/(poky|meta-[a-z0-9]+)(.git)?$/"],
       "matchCurrentValue": "!/^master/",
       "enabled": true,
       "automerge": true,
@@ -63,7 +63,7 @@
     },
     {
       "matchManagers": ["git-submodules","github-actions"],
-      "matchPackagePatterns": ["{balena-os/,}balena-yocto-scripts"],
+      "matchPackagePatterns": ["/balena-os\/balena-yocto-scripts(.git)?$/"],
       "groupName": "balena-yocto-scripts"
     },
     {
