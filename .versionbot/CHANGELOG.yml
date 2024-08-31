@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update renovate Docker tag to v38.58.1
+      hash: d0804dbba8064c9273e083e627d38940bc468f7c
+      body: |
+        Update renovate from 38.58.0 to 38.58.1
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 0.4.829
+  title: ""
+  date: 2024-08-31T00:35:29.747Z
+- commits:
     - subject: Fix use of regex in JSON
       hash: a9969f69b81f620c7129f317b2c2679bc53eea20
       body: ""
