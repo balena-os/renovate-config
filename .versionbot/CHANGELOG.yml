@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update renovate Docker tag to v38.88.1
+      hash: efb50f28b5a50429a01c73bc217461f886e80593
+      body: |
+        Update renovate from 38.88.0 to 38.88.1
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 0.4.894
+  title: ""
+  date: 2024-09-18T15:18:51.533Z
+- commits:
     - subject: Update renovate Docker tag to v38.88.0
       hash: 7c8b0dcdc212d39657af027a5c195f380085012e
       body: |
