@@ -62,11 +62,6 @@
       "groupName": "meta-layers"
     },
     {
-      "matchManagers": ["git-submodules","github-actions"],
-      "matchPackagePatterns": ["balena-yocto-scripts"],
-      "groupName": "balena-yocto-scripts"
-    },
-    {
       "matchPackagePatterns": ["meta-tci"],
       "enabled": false
     }
