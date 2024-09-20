@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update renovate Docker tag to v38.91.2
+      hash: 15b431ed9911ee6804ba36595cfbdcd1ad512fc0
+      body: |
+        Update renovate from 38.91.1 to 38.91.2
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 0.4.903
+  title: ""
+  date: 2024-09-20T13:20:24.747Z
+- commits:
     - subject: Remove the grouping of yocto-scripts
       hash: ef9fc8b37030a5c5fd1ab2425861853f3d6a299b
       body: |
