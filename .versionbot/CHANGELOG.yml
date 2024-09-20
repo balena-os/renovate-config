@@ -1,4 +1,19 @@
 - commits:
+    - subject: Remove the grouping of yocto-scripts
+      hash: ef9fc8b37030a5c5fd1ab2425861853f3d6a299b
+      body: |
+        Grouping submodule digests and actions semver
+        doesn't work as expected and ends up force-pushing
+        the changes again on every run.
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Kyle Harding
+      nested: []
+  version: 0.4.902
+  title: ""
+  date: 2024-09-20T11:47:02.911Z
+- commits:
     - subject: Update renovate Docker tag to v38.91.1
       hash: 97f10c19dc1c9966519593d167d0e88827479676
       body: |
