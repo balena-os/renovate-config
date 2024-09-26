@@ -1,4 +1,15 @@
 - commits:
+    - subject: "CI: opt out of auth persistence"
+      hash: be3e831f7cae2b2b24026c93fed807c648ac008c
+      body: ""
+      footer:
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 0.4.915
+  title: ""
+  date: 2024-09-26T22:30:50.040Z
+- commits:
     - subject: Update renovate Docker tag to v38.93.6
       hash: 7b29c12c005fde41ffbe338b573977fc1545d441
       body: |
