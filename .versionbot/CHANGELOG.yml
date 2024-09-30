@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update renovatebot/github-action action to v40.3.1
+      hash: 017586ab2e430ceec5d7f2d87f1f7db3d3b1b9bb
+      body: |
+        Update renovatebot/github-action from 40.2.10 to 40.3.1
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 0.4.916
+  title: ""
+  date: 2024-09-30T23:33:22.449Z
+- commits:
     - subject: "CI: opt out of auth persistence"
       hash: be3e831f7cae2b2b24026c93fed807c648ac008c
       body: ""
