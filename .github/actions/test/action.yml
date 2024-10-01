@@ -1,0 +1,8 @@
+# https://docs.github.com/en/actions/creating-actions/creating-a-composite-action
+name: "Custom tests"
+description: "Run pre-commit hooks"
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/setup-python@v3
+    - uses: pre-commit/action@v3.0.1
