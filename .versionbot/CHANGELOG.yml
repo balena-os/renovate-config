@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update ubuntu to v24
+      hash: 15b9588ca68d25cc462cdb43c23e8bd968e89469
+      body: |
+        Update ubuntu from 22.04 to 24.04
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 0.4.919
+  title: ""
+  date: 2024-10-01T03:58:25.811Z
+- commits:
     - subject: Update renovate Docker tag to v38.105.1
       hash: dbfb8787a0a7651491e250968145c6e586b3281c
       body: |
