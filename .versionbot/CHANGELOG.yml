@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update Pin dependencies
+      hash: 3121bcd5a2395830947063880fa58cc9bb930e31
+      body: |
+        Update actions/setup-python
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 0.5.1
+  title: ""
+  date: 2024-10-01T22:42:14.248Z
+- commits:
     - subject: Remove the self-hosted renovate workflow
       hash: 09c291b932063e4532242bf3da9838cb41ee0cce
       body: |
