@@ -4,5 +4,5 @@ description: "Run pre-commit hooks"
 runs:
   using: "composite"
   steps:
-    - uses: actions/setup-python@3542bca2639a428e1796aaa6a2ffef0c0f575566 # v3
+    - uses: actions/setup-python@65d7f2d534ac1bc67fcd62888c5f4f3d2cb2b236 # v4
     - uses: pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd # v3.0.1
