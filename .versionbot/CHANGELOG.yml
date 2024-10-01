@@ -1,4 +1,19 @@
 - commits:
+    - subject: Remove the self-hosted renovate workflow
+      hash: 09c291b932063e4532242bf3da9838cb41ee0cce
+      body: |
+        This workflow has moved to a private repository
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.5.0
+  title: ""
+  date: 2024-10-01T21:56:51.154Z
+- commits:
     - subject: Update renovate Docker tag to v38.106.2
       hash: 5dc57fa0589e1f79a13c02be95a9a6b1b0398ed9
       body: |
