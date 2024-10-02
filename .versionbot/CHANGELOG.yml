@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update actions/setup-python action to v5
+      hash: 4c8794d52a91a997104439fd675a79c8bf929dd8
+      body: |
+        Update actions/setup-python from 4 to 5
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 0.5.3
+  title: ""
+  date: 2024-10-02T01:00:58.480Z
+- commits:
     - subject: Update actions/setup-python action to v4
       hash: 3facc50f5fecf6c8dfa0e513b683f58e4caf04e9
       body: |
