@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update actions/setup-python digest to 0b93645
+      hash: 382c78b7e34c28255e2e9a1a38e04bfcedf58c55
+      body: |
+        Update actions/setup-python
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 0.5.4
+  title: ""
+  date: 2024-10-24T15:41:24.431Z
+- commits:
     - subject: Update actions/setup-python action to v5
       hash: 4c8794d52a91a997104439fd675a79c8bf929dd8
       body: |
