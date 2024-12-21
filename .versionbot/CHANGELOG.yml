@@ -1,4 +1,19 @@
 - commits:
+    - subject: Use Renovate to bump the yocto-scripts workflow sha
+      hash: 42a158ab4cbf3572786031f2f556f38b6deb6eaa
+      body: |
+        This will keep the workflow aligned with the submodule.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.5.5
+  title: ""
+  date: 2024-12-21T14:35:21.311Z
+- commits:
     - subject: Update actions/setup-python digest to 0b93645
       hash: 382c78b7e34c28255e2e9a1a38e04bfcedf58c55
       body: |
@@ -6726,12 +6741,9 @@
 - commits:
     - subject: Enable pruning of stale and orphan branches
       hash: 45d945b83add5a091398bc5b9ee72ec2c8e0309e
-      body: >
-        See:
-        https://docs.renovatebot.com/configuration-options/#prunestalebranches
-
-        See:
-        https://balena.zulipchat.com/#narrow/stream/345889-balena-io.2Fos/topic/Renovate.20for.20balena-supervisor
+      body: |
+        See: https://docs.renovatebot.com/configuration-options/#prunestalebranches
+        See: https://balena.zulipchat.com/#narrow/stream/345889-balena-io.2Fos/topic/Renovate.20for.20balena-supervisor
       footer:
         Change-type: patch
         change-type: patch
