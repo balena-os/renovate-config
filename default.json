@@ -43,7 +43,7 @@
     },
     {
       "matchManagers": ["git-submodules"],
-      "matchPackagePatterns": ["poky","meta-*"],
+      "matchPackagePatterns": ["poky", "meta-*"],
       "matchCurrentValue": "!/^master/",
       "enabled": true,
       "automerge": true,
@@ -52,6 +52,17 @@
     {
       "matchPackagePatterns": ["meta-tci"],
       "enabled": false
+    },
+    {
+      "matchManagers": ["git-submodules"],
+      "matchDepNames": ["balena-yocto-scripts"],
+      "postUpgradeTasks": {
+        "commands": [
+          "sed -E -i 's/(yocto-build-deploy\\.yml@)[^[:space:]]+$/\\1{{{newDigest}}}/' .github/workflows/*.yml"
+        ],
+        "fileFilters": [".github/workflows/*.yml"],
+        "executionMode": "update"
+      }
     }
   ]
 }
