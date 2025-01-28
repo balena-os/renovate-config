@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update actions/setup-python digest to 4237552
+      hash: e2f9b80c0e7603a6b03a2250cf453a8eba288d16
+      body: |
+        Update actions/setup-python
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 0.5.6
+  title: ""
+  date: 2025-01-28T06:29:17.211Z
+- commits:
     - subject: Use Renovate to bump the yocto-scripts workflow sha
       hash: 42a158ab4cbf3572786031f2f556f38b6deb6eaa
       body: |
