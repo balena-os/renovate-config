@@ -63,6 +63,11 @@
         "fileFilters": [".github/workflows/*.yml"],
         "executionMode": "update"
       }
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "matchDepNames": ["balena-os/balena-yocto-scripts"],
+      "enabled": false
     }
   ]
 }
