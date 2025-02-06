@@ -1,4 +1,22 @@
 - commits:
+    - subject: Disable the github-actions manager for balena-os/balena-yocto-scripts
+      hash: 0e5bc6cbca10051035681ea5300c22cb440f4247
+      body: >
+        This dependency is managed via postUpgradeTasks along with the
+
+        contracts submodule and we don't want multiple PRs to bump the same
+        package.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.5.7
+  title: ""
+  date: 2025-02-06T14:19:14.379Z
+- commits:
     - subject: Update actions/setup-python digest to 4237552
       hash: e2f9b80c0e7603a6b03a2250cf453a8eba288d16
       body: |
