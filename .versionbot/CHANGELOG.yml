@@ -1,4 +1,18 @@
 - commits:
+    - subject: Match and replace comments in yocto-scripts pinned commit
+      hash: 0fe0fe49de0adcf205d6c399fde48bf7bf6d2ed1
+      body: >
+        The existing sed expression was failing to match workflow commits that
+        were previously pinned with a trailing semver comment.
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Kyle Harding
+      nested: []
+  version: 0.5.8
+  title: ""
+  date: 2025-03-28T00:38:57.380Z
+- commits:
     - subject: Disable the github-actions manager for balena-os/balena-yocto-scripts
       hash: 0e5bc6cbca10051035681ea5300c22cb440f4247
       body: >
