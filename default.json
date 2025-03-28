@@ -44,7 +44,7 @@
     {
       "matchManagers": ["git-submodules"],
       "matchPackagePatterns": ["poky", "meta-*"],
-      "matchCurrentValue": "!/^master/",
+      "matchCurrentValue": "!/(master|main)/",
       "enabled": true,
       "automerge": true,
       "groupName": "meta-layers"
