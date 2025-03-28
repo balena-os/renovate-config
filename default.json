@@ -58,7 +58,7 @@
       "matchDepNames": ["balena-yocto-scripts"],
       "postUpgradeTasks": {
         "commands": [
-          "sed -E -i 's/(yocto-build-deploy\\.yml@)[^[:space:]]+$/\\1{{{newDigest}}}/' .github/workflows/*.yml"
+          "sed -E -i 's/(yocto-build-deploy\\.yml@).+$/\\1{{{newDigest}}}/' .github/workflows/*.yml"
         ],
         "fileFilters": [".github/workflows/*.yml"],
         "executionMode": "update"
