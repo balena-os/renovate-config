@@ -1,4 +1,16 @@
 - commits:
+    - subject: Ignore both master and main branches of yocto layers
+      hash: b244126a03c6bae6cc02e0271db536a4dcd27e87
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Kyle Harding
+      nested: []
+  version: 0.5.9
+  title: ""
+  date: 2025-03-31T07:48:47.737Z
+- commits:
     - subject: Match and replace comments in yocto-scripts pinned commit
       hash: 0fe0fe49de0adcf205d6c399fde48bf7bf6d2ed1
       body: >
