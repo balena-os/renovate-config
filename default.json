@@ -65,9 +65,28 @@
       }
     },
     {
+      "description": "Disable GitHub Actions updates for balena-yocto-scripts as we use a post-upgrade task to update it to the latest commit",
       "matchManagers": ["github-actions"],
       "matchDepNames": ["balena-os/balena-yocto-scripts"],
       "enabled": false
+    },
+    {
+      "description": "Lower priority and weekend schedule github-actions updates",
+      "matchManagers": ["github-actions"],
+      "prPriority": -1,
+      "schedule": ["* * * * 0,6"]
+    },
+    {
+      "description": "Lower priority and weekend schedule devDependencies updates",
+      "matchDepTypes": ["devDependencies"],
+      "prPriority": -1,
+      "schedule": ["* * * * 0,6"]
+    },
+    {
+      "description": "Lower priority and weekend schedule pre-commit updates",
+      "matchManagers": ["pre-commit"],
+      "prPriority": -1,
+      "schedule": ["* * * * 0,6"]
     }
   ]
 }
