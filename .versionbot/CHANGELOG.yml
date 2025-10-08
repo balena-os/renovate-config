@@ -1,4 +1,20 @@
 - commits:
+    - subject: Set weekend schedules for low-priority updates
+      hash: 2893b90c64f99b5e902ccf731cecabb87d5f9a8f
+      body: |
+        This should improve renovate runtime, and reduce PR
+        churn during business hours.
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.6.0
+  title: ""
+  date: 2025-10-08T18:54:17.500Z
+- commits:
     - subject: Ignore both master and main branches of yocto layers
       hash: b244126a03c6bae6cc02e0271db536a4dcd27e87
       body: ""
