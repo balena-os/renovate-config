@@ -1,7 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base",
+    "config:recommended",
+    "config:best-practices",
     ":semanticCommitsDisabled",
     "helpers:pinGitHubActionDigests"
   ],
@@ -14,6 +15,9 @@
   "git-submodules": {
     "enabled": true
   },
+  "pre-commit": {
+    "enabled": true
+  },
   "labels": ["renovate"],
   "automerge": true,
   "automergeStrategy": "merge-commit",
@@ -22,7 +26,21 @@
   },
   "packageRules": [
     {
+      "description": "Disable all managers by default for device-type repos",
       "matchPackagePatterns": ["*"],
+      "matchRepositories": [
+        "!balena-os/wifi-connect",
+        "!balena-os/leviathan",
+        "!balena-os/leviathan-worker",
+        "!balena-os/renovate-config",
+        "!balena-os/cloud-config",
+        "!balena-os/.github",
+        "!balena-os/balena-supervisor",
+        "!balena-os/yocto-dev",
+        "!balena-os/balena-sign",
+        "!balena-os/github-workflows",
+        "!balena-os/balena-yocto-scripts"
+      ],
       "excludePackagePatterns": [
         ".*meta-balena",
         ".*balena-yocto-scripts",
