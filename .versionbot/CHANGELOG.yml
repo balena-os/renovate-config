@@ -1,4 +1,40 @@
 - commits:
+    - subject: Add best-practices config preset
+      hash: 89095073da6e3d23c3dd61bf87a59ef59c527826
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+    - subject: Enable pre-commit manager
+      hash: 19257425873d000a09f9594423c43d5fd48719d5
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+    - subject: Add repo exceptions to the disable-all defaults
+      hash: fa1f6c0ff6a961311705459d5837dfaf68f0f9ef
+      body: |
+        For repos that inherit configs from balena-io/renovate-config
+        we don't want to disable all managers by default.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.6.1
+  title: ""
+  date: 2026-04-30T16:12:27.200Z
+- commits:
     - subject: Set weekend schedules for low-priority updates
       hash: 2893b90c64f99b5e902ccf731cecabb87d5f9a8f
       body: |
