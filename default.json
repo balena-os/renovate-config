@@ -14,6 +14,9 @@
   "git-submodules": {
     "enabled": true
   },
+  "pre-commit": {
+    "enabled": true
+  },
   "labels": ["renovate"],
   "automerge": true,
   "automergeStrategy": "merge-commit",
