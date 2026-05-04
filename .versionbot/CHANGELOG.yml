@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update pre-commit hook renovatebot/pre-commit-hooks to v43
+      hash: 9f960295f2b544a4acb6bf760a06b00d162ab408
+      body: |
+        Update renovatebot/pre-commit-hooks from 38.101.0 to 43.150.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 0.6.2
+  title: ""
+  date: 2026-05-04T20:08:25.490Z
+- commits:
     - subject: Add best-practices config preset
       hash: 89095073da6e3d23c3dd61bf87a59ef59c527826
       body: ""
