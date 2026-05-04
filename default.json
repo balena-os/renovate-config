@@ -1,6 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
+    "github>balena-io/renovate-config",
     "config:recommended",
     "config:best-practices",
     ":semanticCommitsDisabled",
@@ -9,9 +10,13 @@
   "commitMessagePrefix": "Update",
   "commitMessageAction": "",
   "commitMessageTopic": "{{depName}}",
-  "commitBody": "Update {{depName}}\nChangelog-entry: Update {{depName}} to {{newVersion}}",
   "prHourlyLimit": 0,
   "pruneStaleBranches": true,
+  "enabledManagers": [
+    "git-submodules",
+    "github-actions",
+    "custom.regex"
+  ],
   "git-submodules": {
     "enabled": true
   },
@@ -21,54 +26,46 @@
   "labels": ["renovate"],
   "automerge": true,
   "automergeStrategy": "merge-commit",
-  "digest": {
-    "commitBody": "Update {{depName}}\nChangelog-entry: Update {{depName}} to {{newDigest}}"
-  },
   "packageRules": [
     {
-      "description": "Disable all managers by default for device-type repos",
-      "matchPackagePatterns": ["*"],
-      "matchRepositories": [
-        "!balena-os/wifi-connect",
-        "!balena-os/leviathan",
-        "!balena-os/leviathan-worker",
-        "!balena-os/renovate-config",
-        "!balena-os/cloud-config",
-        "!balena-os/.github",
-        "!balena-os/balena-supervisor",
-        "!balena-os/yocto-dev",
-        "!balena-os/balena-sign",
-        "!balena-os/github-workflows",
-        "!balena-os/balena-yocto-scripts"
+      "description": "Update dependencies with changelog entry",
+      "matchUpdateTypes": ["*"],
+      "commitBody": "Update {{depName}}\nChangelog-entry: Update {{depName}}"
+    },
+    {
+      "description": "Update major/minor/patch dependencies with changelog entry",
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "commitBody": "Update {{depName}}\nChangelog-entry: Update {{depName}} to {{newVersion}}"
+    },
+    {
+      "description": "Update digest dependencies with changelog entry",
+      "matchUpdateTypes": ["digest"],
+      "commitBody": "Update {{depName}}\nChangelog-entry: Update {{depName}} to {{newDigest}}"
+    },
+    {
+      "description": "Disable git-submodules for upstream layers using main/master branch refs",
+      "matchManagers": ["git-submodules"],
+      "matchPackageNames": [
+        "!layers/meta-balena",
+        "layers/poky",
+        "layers/meta-*"
       ],
-      "excludePackagePatterns": [
-        ".*meta-balena",
-        ".*balena-yocto-scripts",
-        ".*leviathan",
-        ".*contracts"
-      ],
+      "matchCurrentValue": "/(master|main)/",
       "enabled": false
     },
     {
-      "matchManagers": ["regex"],
-      "enabled": true,
-      "automerge": true
-    },
-    {
-      "matchManagers": ["github-actions"],
-      "enabled": true,
-      "automerge": true
-    },
-    {
+      "description": "Group upstream meta-layer submodule updates (poky, meta-bsp, etc.)",
       "matchManagers": ["git-submodules"],
-      "matchPackagePatterns": ["poky", "meta-*"],
-      "matchCurrentValue": "!/(master|main)/",
-      "enabled": true,
-      "automerge": true,
+      "matchPackageNames": [
+        "!layers/meta-balena",
+        "layers/poky",
+        "layers/meta-*"
+      ],
       "groupName": "meta-layers"
     },
     {
-      "matchPackagePatterns": ["meta-tci"],
+      "matchPackageNames": ["meta-tci"],
+      "matchManagers": ["git-submodules"],
       "enabled": false
     },
     {
@@ -92,19 +89,19 @@
       "description": "Lower priority and weekend schedule github-actions updates",
       "matchManagers": ["github-actions"],
       "prPriority": -1,
-      "schedule": ["* * * * 0,6"]
+      "schedule": ["every weekend"]
     },
     {
       "description": "Lower priority and weekend schedule devDependencies updates",
       "matchDepTypes": ["devDependencies"],
       "prPriority": -1,
-      "schedule": ["* * * * 0,6"]
+      "schedule": ["every weekend"]
     },
     {
       "description": "Lower priority and weekend schedule pre-commit updates",
       "matchManagers": ["pre-commit"],
       "prPriority": -1,
-      "schedule": ["* * * * 0,6"]
+      "schedule": ["every weekend"]
     }
   ]
 }
