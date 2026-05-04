@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update pre-commit hook pre-commit/pre-commit-hooks to v6
+      hash: fa66971ea29e93f1b622e3df63f433445fe8d918
+      body: |
+        Update pre-commit/pre-commit-hooks from 3.2.0 to 6.0.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 0.6.3
+  title: ""
+  date: 2026-05-04T21:14:01.317Z
+- commits:
     - subject: Update pre-commit hook renovatebot/pre-commit-hooks to v43
       hash: 9f960295f2b544a4acb6bf760a06b00d162ab408
       body: |
