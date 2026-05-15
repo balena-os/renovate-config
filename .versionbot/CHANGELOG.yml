@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update pre-commit hook rhysd/actionlint to v1.7.12
+      hash: 9236ce0c838239e61ee325ac172c7ec9e44b1ad4
+      body: |
+        Update rhysd/actionlint from 1.7.3 to 1.7.12
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 0.6.4
+  title: ""
+  date: 2026-05-15T01:36:27.342Z
+- commits:
     - subject: Update pre-commit hook pre-commit/pre-commit-hooks to v6
       hash: fa66971ea29e93f1b622e3df63f433445fe8d918
       body: |
