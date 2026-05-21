@@ -1,4 +1,26 @@
 - commits:
+    - subject: Extend config from balena-io
+      hash: 7c74274d6f0a075f5f89f172ecea84f27990f604
+      body: |
+        Our primary config is balena-io and is always updated first
+        with the latest security and performance fixes.
+
+        List explicit enabledManagers to improve overall runtime
+        and disable features we don't use.
+
+        Move custom commitBody to packageRules so it overrides
+        the values set by balena-io/renovate-config.
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.7.0
+  title: ""
+  date: 2026-05-21T15:50:26.451Z
+- commits:
     - subject: Update pre-commit hook rhysd/actionlint to v1.7.12
       hash: 9236ce0c838239e61ee325ac172c7ec9e44b1ad4
       body: |
