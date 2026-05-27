@@ -1,4 +1,18 @@
 - commits:
+    - subject: Reorder extends in default.json configuration
+      hash: 7051c04f23889e202cb54ef7718e25099eb0f6be
+      body: |
+        Ensure that balena-io packageRules are applied after
+        common presets.
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Kyle Harding
+      nested: []
+  version: 0.7.1
+  title: ""
+  date: 2026-05-27T23:52:58.217Z
+- commits:
     - subject: Extend config from balena-io
       hash: 7c74274d6f0a075f5f89f172ecea84f27990f604
       body: |
