@@ -1,11 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>balena-io/renovate-config",
     "config:recommended",
     "config:best-practices",
     ":semanticCommitsDisabled",
-    "helpers:pinGitHubActionDigests"
+    "helpers:pinGitHubActionDigests",
+    "github>balena-io/renovate-config"
   ],
   "commitMessagePrefix": "Update",
   "commitMessageAction": "",
