@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update pre-commit hooks to v43.222.1
+      hash: 2105250a2ecbcdd790b38546cb52cb71aa2322c3
+      body: |
+        Update renovatebot/pre-commit-hooks from 43.150.0 to 43.222.1
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 0.7.2
+  title: ""
+  date: 2026-06-15T01:54:31.571Z
+- commits:
     - subject: Reorder extends in default.json configuration
       hash: 7051c04f23889e202cb54ef7718e25099eb0f6be
       body: |
