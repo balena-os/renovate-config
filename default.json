@@ -11,6 +11,7 @@
   "commitMessageAction": "",
   "commitMessageTopic": "{{depName}}",
   "prHourlyLimit": 0,
+  "prConcurrentLimit": 0,
   "pruneStaleBranches": true,
   "enabledManagers": [
     "git-submodules",
