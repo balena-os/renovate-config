@@ -1,4 +1,23 @@
 - commits:
+    - subject: Disable prConcurrentLimit setting
+      hash: 246506a984aae7485c09caead56ed165c282d138
+      body: >
+        When we started inheriting config from balena-io/renovate-config it
+        included a default prConcurrentLimit setting of 3, which limits each
+        repo to a maximum of 3 PR branches at a time.
+
+
+        That is not a setting we have ever wanted to have enforced in balena-os
+        so this change disables the inherited default.
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Kyle Harding
+      nested: []
+  version: 0.7.3
+  title: ""
+  date: 2026-06-24T08:57:15.091Z
+- commits:
     - subject: Update pre-commit hooks to v43.222.1
       hash: 2105250a2ecbcdd790b38546cb52cb71aa2322c3
       body: |
