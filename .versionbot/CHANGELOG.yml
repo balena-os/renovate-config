@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update pre-commit hook renovatebot/pre-commit-hooks to v43.263.6
+      hash: e2e60c118c917de9a883aebe36445da1b8a08af8
+      body: |
+        Update renovatebot/pre-commit-hooks from 43.222.1 to 43.263.6
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 0.7.4
+  title: ""
+  date: 2026-07-15T01:49:06.617Z
+- commits:
     - subject: Disable prConcurrentLimit setting
       hash: 246506a984aae7485c09caead56ed165c282d138
       body: >
