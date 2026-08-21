@@ -46,18 +46,18 @@
     {
       "description": "Disable git-submodules for upstream layers using main/master branch refs",
       "matchManagers": ["git-submodules"],
-      "matchPackageNames": [
-        "!layers/meta-balena",
+      "matchDepNames": [
+        "!layers/meta-balena*",
         "layers/poky",
         "layers/meta-*"
       ],
-      "matchCurrentValue": "/(master|main)/",
+      "matchCurrentValue": "/^(master|main)$/",
       "enabled": false
     },
     {
       "description": "Group upstream meta-layer submodule updates (poky, meta-bsp, etc.)",
       "matchManagers": ["git-submodules"],
-      "matchPackageNames": [
+      "matchDepNames": [
         "!layers/meta-balena",
         "layers/poky",
         "layers/meta-*"
@@ -65,7 +65,7 @@
       "groupName": "meta-layers"
     },
     {
-      "matchPackageNames": ["meta-tci"],
+      "matchDepNames": ["layers/meta-tci"],
       "matchManagers": ["git-submodules"],
       "enabled": false
     },
