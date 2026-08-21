@@ -1,4 +1,19 @@
 - commits:
+    - subject: Fix grouping of meta-layers by depName
+      hash: b1d961fed3d09563900177aa5782528391f06144
+      body: |
+        This is the correct property for matching the git-submodule repo path.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.7.7
+  title: ""
+  date: 2026-08-21T17:27:50.678Z
+- commits:
     - subject: Update pre-commit hook renovatebot/pre-commit-hooks to v43.288.0
       hash: f2d36da6881b4e672a00d22988a50b5635308288
       body: |
